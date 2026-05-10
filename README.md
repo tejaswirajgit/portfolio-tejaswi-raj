@@ -25,7 +25,7 @@ Computer Science Engineer (2025 graduate) focused on building AI-driven and scal
 ## Education
 
 **B.E. in Computer Science Engineering** — Chandigarh University, Mohali, Punjab
-Graduated 2025 · CGPA: 7.56
+Graduated 2025
 
 ## Featured projects
 
