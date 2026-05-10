@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Claude — never commit any Claude files
+.claude/
+.claude
+CLAUDE.md
+**/CLAUDE.md
+**/.claude/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ignore raw notebooks, but keep HTML outputs
+notebooks/*.ipynb
+
+
+# Logs
+*.log
+
+# Notes / local docs
+*.txt
+/certificate_links.csv
+
+# Certificates: ignore all by default, keep only files used by website
+Coursera Certificate/*
+!Coursera Certificate/certificate_links.csv
+
+# AI / Machine Learning
+!Coursera Certificate/IBM Introduction to Machine Learning.pdf
+!Coursera Certificate/Exploratory Data Analysis for Machine Learning.pdf
+!Coursera Certificate/Supervised Machine Learning Regression.pdf
+!Coursera Certificate/Supervised Machine Learning Classification.pdf
+!Coursera Certificate/Unsupervised Machine Learning.pdf
+!Coursera Certificate/Deep Learning and Reinforcement Learning.pdf
+!Coursera Certificate/Natural Language Processing with Classification and Vector Spaces.pdf
+!Coursera Certificate/Introduction to Computer Vision and Image Processing.pdf
+!Coursera Certificate/Decision Tree and Random Forest Classification.pdf
+!Coursera Certificate/Build Random Forests in R with Azure ML Studio.pdf
+!Coursera Certificate/SVM Regression, prediction and losses.pdf
+!Coursera Certificate/AutoML tools for data science.pdf
+
+# Software Engineering
+!Coursera Certificate/Algorithmic Toolbox.pdf
+!Coursera Certificate/Data Structures and Performance.pdf
+!Coursera Certificate/Java as a Second.pdf
+!Coursera Certificate/Introduction to Java as a Second Language.pdf
+!Coursera Certificate/The Java Language.pdf
+!Coursera Certificate/Writing Java Application Code.pdf
+
+# Web Development
+!Coursera Certificate/HTML, CSS, and Javascript for Web Developers.pdf
+!Coursera Certificate/Front End Web UI Frameworks and Tools.pdf
+!Coursera Certificate/Single Page Web Applications with AngularJS.pdf
+!Coursera Certificate/Mobile Development and JavaScript.pdf

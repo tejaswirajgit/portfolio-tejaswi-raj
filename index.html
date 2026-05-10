@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.shields.io; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Tejaswi Raj | ML Research Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">TR</a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Tejaswi Raj</h1>
+                <h2 class="hero-title">ML Research Engineer</h2>
+                <p class="hero-description">
+                    I build intelligent systems that bridge the gap between data and actionable insights.
+                    Passionate about leveraging Machine Learning and Deep Learning to solve real-world problems
+                    in healthcare, geospatial analysis, and beyond.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="hero-social">
+                    <a href="mailto:tejaswirajmgr@gmail.com" class="social-link" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tejaswi-raj-/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BazpM%2BcdQT82cioWp9CGTzw%3D%3D" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                    </a>
+                    <a href="https://github.com/tejaswirajgit" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                    </a>
+                    <a href="tel:+919473219473" class="social-link" aria-label="Phone">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-decoration">
+                    <div class="code-block">
+                        <span class="code-keyword">class</span> <span class="code-class">MLEngineer</span>:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-function">__init__</span>(<span class="code-param">self</span>):
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-param">self</span>.name = <span class="code-string">"Tejaswi Raj"</span>
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-param">self</span>.skills = [<span class="code-string">"ML"</span>, <span class="code-string">"DL"</span>, <span class="code-string">"CV"</span>]
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-param">self</span>.passion = <span class="code-string">"∞"</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Machine Learning Research Engineer with hands-on experience at premier research institutions 
+                        including <span class="highlight">DRDO</span> and <span class="highlight">IIT Mandi</span>. 
+                        My work focuses on developing AI solutions for critical applications in healthcare, 
+                        geospatial analysis, and brain-computer interfaces.
+                    </p>
+                    <p>
+                        Currently pursuing my B.E. in Computer Science Engineering at Chandigarh University, 
+                        I've published research in international conferences and developed models achieving 
+                        up to 99% accuracy in disease detection and classification tasks.
+                    </p>
+                    <div class="skills-container">
+                        <h3>Technical Arsenal</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Machine Learning</h4>
+                                <div class="skill-tags">
+                                    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" loading="lazy">
+                                    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" loading="lazy">
+                                    <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Deep%20Learning-013243?style=for-the-badge" alt="Deep Learning" loading="lazy">
+                                    <img src="https://img.shields.io/badge/CNNs-6A5ACD?style=for-the-badge" alt="CNNs" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="Computer Vision" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Image%20Segmentation-7C3AED?style=for-the-badge" alt="Image Segmentation" loading="lazy">
+                                    <img src="https://img.shields.io/badge/U--Net-4B8BBE?style=for-the-badge" alt="U-Net" loading="lazy">
+                                    <img src="https://img.shields.io/badge/SegNet-4B8BBE?style=for-the-badge" alt="SegNet" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Feature%20Engineering-14213D?style=for-the-badge" alt="Feature Engineering" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>AI &amp; Agents</h4>
+                                <div class="skill-tags">
+                                    <img src="https://img.shields.io/badge/%F0%9F%A4%96%20Transformers-1F2937?style=for-the-badge" alt="Transformers" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" loading="lazy">
+                                    <img src="https://img.shields.io/badge/NLP-4B0082?style=for-the-badge" alt="NLP" loading="lazy">
+                                    <img src="https://img.shields.io/badge/RAG-06B6D4?style=for-the-badge" alt="RAG" loading="lazy">
+                                    <img src="https://img.shields.io/badge/AI%20Agents-7C3AED?style=for-the-badge" alt="AI Agents" loading="lazy">
+                                    <img src="https://img.shields.io/badge/MCP-6366F1?style=for-the-badge" alt="MCP" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Programming Languages</h4>
+                                <div class="skill-tags">
+                                    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" loading="lazy">
+                                    <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" loading="lazy">
+                                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" loading="lazy">
+                                    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" loading="lazy">
+                                    <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" loading="lazy">
+                                    <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" loading="lazy">
+                                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" loading="lazy">
+                                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Backend &amp; APIs</h4>
+                                <div class="skill-tags">
+                                    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" loading="lazy">
+                                    <img src="https://img.shields.io/badge/REST%20APIs-02569B?style=for-the-badge" alt="REST APIs" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Databases</h4>
+                                <div class="skill-tags">
+                                    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" loading="lazy">
+                                    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" loading="lazy">
+                                    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" loading="lazy">
+                                    <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>DevOps &amp; Cloud</h4>
+                                <div class="skill-tags">
+                                    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" loading="lazy">
+                                    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" loading="lazy">
+                                    <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI/CD" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white" alt="Podman" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" loading="lazy">
+                                    <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Aug 2024 — Jan 2025</span>
+                            <span class="timeline-duration">6 Months</span>
+                        </div>
+                        <h3 class="timeline-title">ML Research Intern</h3>
+                        <h4 class="timeline-company">Defence Geoinformatics Research EST. (DRDO), Chandigarh</h4>
+                        <p class="timeline-description">
+                            Developed Deep Learning models for landslide detection using multispectral Sentinel-2 data, 
+                            achieving a 73% F1-score. Enhanced performance through implementation of U-Net, AlexNet, 
+                            and SegNet architectures for semantic segmentation tasks.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">U-Net</span>
+                            <span class="tag">AlexNet</span>
+                            <span class="tag">SegNet</span>
+                        </div>
+                        <a href="DRDO Certificate.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Feb 2024 — Jul 2024</span>
+                            <span class="timeline-duration">6 Months</span>
+                        </div>
+                        <h3 class="timeline-title">ML Research Intern</h3>
+                        <h4 class="timeline-company">Indian Institute of Technology Mandi</h4>
+                        <p class="timeline-description">
+                            Applied Machine Learning and Deep Learning techniques to Electroencephalogram (EEG) data 
+                            for measuring electrical activity in the brain. Enhanced algorithms for precise information 
+                            extraction and signal processing from neural data.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">scikit-learn</span>
+                            <span class="tag">MATLAB</span>
+                            <span class="tag">SciPy</span>
+                            <span class="tag">Signal Processing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Featured Project</span>
+                        <h3 class="project-title">Cardiovascular Disease Prediction & Prevention</h3>
+                        <p class="project-description">
+                            Developed an AI system that accurately predicts Cardiovascular disease in patients 
+                            by analyzing medical reports and daily routines using ML algorithms, achieving 
+                            <span class="highlight">94% accuracy</span>.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Healthcare AI</span>
+                            <span class="tag">Prediction Model</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://cardiovascular-disease-risk-predictor.streamlit.app/" class="project-link" target="_blank" rel="noopener noreferrer">Open Live App →</a>
+                            <a href="notebooks/ML-Based Cardiovascular Disease Prediction & Prevention Framework.html" class="project-link" target="_blank" rel="noopener noreferrer">View Notebook →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Plant Leaf Disease Detection</h3>
+                        <p class="project-description">
+                            Created an AI model for plant disease classification using CNN algorithms across 
+                            11 distinct plant species, achieving <span class="highlight">99% accuracy</span>.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">CNN</span>
+                            <span class="tag">Computer Vision</span>
+                        </div>
+                        <a href="notebooks/Plant Leaf Disease Detection.html" class="project-link" target="_blank">View Notebook →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Coronary Artery Disease Feature Selection</h3>
+                        <p class="project-description">
+                            Engineered an AI model for precise feature selection of Coronary Artery diseases 
+                            using Logistic and MLP approaches, achieving <span class="highlight">90% accuracy</span>.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Feature Engineering</span>
+                            <span class="tag">MLP</span>
+                            <span class="tag">Logistic Regression</span>
+                        </div>
+                        <a href="notebooks/coronary-artery-disease.html" class="project-link" target="_blank">View Notebook →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="publications" id="publications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Publications</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="publications-list">
+                <div class="publication-card" data-aos="fade-up">
+                    <div class="publication-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+                    </div>
+                    <div class="publication-content">
+                        <h3>Cardiovascular Disease Prediction and Prevention: Exploring Novel Techniques and Applications Using Machine Learning</h3>
+                        <p class="publication-venue">12th International Conference 2023</p>
+                        <a href="https://ieeexplore.ieee.org/document/10428297" class="cert-btn" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            View on IEEE
+                        </a>
+                    </div>
+                </div>
+                <div class="publication-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="publication-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+                    </div>
+                    <div class="publication-content">
+                        <h3>Personality Analysis using Graphology and Image Processing Techniques</h3>
+                        <p class="publication-venue">1st International Conference ICDCC-2024</p>
+                        <a href="https://ieeexplore.ieee.org/document/10961797" class="cert-btn" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            View on IEEE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="cert-group">
+                <h3 class="cert-group-title"><span class="cert-group-tag">AI / Machine Learning</span></h3>
+                <div class="certifications-grid">
+                <div class="cert-card cert-card-spec" data-aos="fade-up">
+                    <span class="cert-tier-badge">Specialization</span>
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>IBM Machine Learning</h3>
+                    <p>IBM · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/IBM Introduction to Machine Learning.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/LQG9HR89RRXS" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Exploratory Data Analysis for Machine Learning</h3>
+                    <p>IBM · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Exploratory Data Analysis for Machine Learning.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/QVK5RNW38L55" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Supervised Machine Learning: Regression</h3>
+                    <p>IBM · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Supervised Machine Learning Regression.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/TGVEJHKMQYQ4" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Supervised Machine Learning: Classification</h3>
+                    <p>IBM · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Supervised Machine Learning Classification.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/ZMZ2MBB4CQ3M" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Unsupervised Machine Learning</h3>
+                    <p>IBM · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Unsupervised Machine Learning.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/2LMJ365G6NVZ" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Deep Learning and Reinforcement Learning</h3>
+                    <p>IBM · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Deep Learning and Reinforcement Learning.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/XSMUTDE8CTJJ" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Natural Language Processing with Classification and Vector Spaces</h3>
+                    <p>DeepLearning.AI · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Natural Language Processing with Classification and Vector Spaces.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/LGXMMKX3V4PC" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Introduction to Computer Vision and Image Processing</h3>
+                    <p>IBM · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Introduction to Computer Vision and Image Processing.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/634V38XQKKSM" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Decision Tree and Random Forest Classification</h3>
+                    <p>Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Decision Tree and Random Forest Classification.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/BHN2C6QWZWX4" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Build Random Forests in R with Azure ML Studio</h3>
+                    <p>Coursera Project Network</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Build Random Forests in R with Azure ML Studio.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/T2KYMD76P2QM" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>SVM Regression, Prediction and Losses</h3>
+                    <p>Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/SVM Regression, prediction and losses.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/LJXRRSHG979K" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>AutoML Tools for Data Science</h3>
+                    <p>Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/AutoML tools for data science.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/PJDNQL5VB5TK" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="cert-group">
+                <h3 class="cert-group-title"><span class="cert-group-tag">Software Engineering</span></h3>
+                <div class="certifications-grid">
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Algorithmic Toolbox</h3>
+                    <p>UC San Diego · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Algorithmic Toolbox.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/8P2ASHSTGXE4" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Data Structures and Performance</h3>
+                    <p>UC San Diego · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Data Structures and Performance.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/FYHST5T4QSCX" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card cert-card-spec" data-aos="fade-up">
+                    <span class="cert-tier-badge">Specialization</span>
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Java as a Second Language</h3>
+                    <p>LearnQuest · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Java as a Second.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/F43UQL8YQMWF" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Introduction to Java as a Second Language</h3>
+                    <p>LearnQuest · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Introduction to Java as a Second Language.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/9TJEK6PGA3PT" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>The Java Language</h3>
+                    <p>LearnQuest · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/The Java Language.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/L7HCSNYCZ3MC" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Writing Java Application Code</h3>
+                    <p>LearnQuest · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Writing Java Application Code.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/NWYXE9CEZ5JB" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="cert-group">
+                <h3 class="cert-group-title"><span class="cert-group-tag">Web Development</span></h3>
+                <div class="certifications-grid">
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>HTML, CSS, and JavaScript for Web Developers</h3>
+                    <p>Johns Hopkins · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/HTML, CSS, and Javascript for Web Developers.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/NLJQUTVJCLT6" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Front-End Web UI Frameworks and Tools</h3>
+                    <p>Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Front End Web UI Frameworks and Tools.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/FC5ZP28K3SPK" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Single Page Web Applications with AngularJS</h3>
+                    <p>Johns Hopkins · Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Single Page Web Applications with AngularJS.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/BY25ADYVGG2W" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Mobile Development and JavaScript</h3>
+                    <p>Coursera</p>
+                    <div class="cert-btns">
+                        <a href="Coursera Certificate/Mobile Development and JavaScript.pdf" class="cert-btn" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a href="https://coursera.org/verify/LYG3KZH5HKV5" class="cert-btn cert-btn-outline" target="_blank" rel="noopener noreferrer">Verify</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">06</span>
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card edu-card-wide" data-aos="fade-up">
+                    <div class="edu-year-block">
+                        <span class="edu-year-large">2025</span>
+                        <span class="edu-year-label">Graduation</span>
+                    </div>
+                    <div class="edu-divider"></div>
+                    <div class="edu-details">
+                        <h3>B.E. in Computer Science Engineering</h3>
+                        <h4>Chandigarh University, Mohali, Punjab</h4>
+                        <p class="edu-grade">CGPA: 7.56</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">07</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm currently looking for new opportunities in Machine Learning and AI research. 
+                    Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                </p>
+                <div class="contact-info">
+                    <a href="mailto:tejaswirajmgr@gmail.com" class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        <span>tejaswirajmgr@gmail.com</span>
+                    </a>
+                    <a href="tel:+919473219473" class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <span>+91 9473219473</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tejaswi-raj-/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BazpM%2BcdQT82cioWp9CGTzw%3D%3D" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+                <a href="mailto:tejaswirajmgr@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Built by Tejaswi Raj</p>
+            <p class="footer-copyright">© 2025 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
