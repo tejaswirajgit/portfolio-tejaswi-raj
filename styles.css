@@ -116,6 +116,7 @@ ul {
   right: 0;
   height: var(--nav-height);
   background-color: rgba(7, 11, 22, 0.7);
+  -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border-subtle);
   z-index: 1000;
@@ -355,6 +356,7 @@ ul {
   line-height: 1.8;
   border: 1px solid var(--border-subtle);
   box-shadow: var(--shadow-soft);
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
 
@@ -523,6 +525,7 @@ section {
   border-radius: 14px;
   border: 1px solid var(--border-subtle);
   box-shadow: var(--shadow-soft);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   transition: var(--transition);
 }
@@ -626,6 +629,7 @@ section {
   border-radius: 14px;
   border: 1px solid var(--border-subtle);
   box-shadow: var(--shadow-soft);
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   overflow: hidden;
   transition: var(--transition);
