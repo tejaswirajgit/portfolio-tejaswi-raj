@@ -629,6 +629,8 @@ section {
   backdrop-filter: blur(8px);
   overflow: hidden;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -658,6 +660,9 @@ section {
 
 .project-content {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .project-label {
@@ -695,6 +700,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
+  margin-top: auto;
 }
 
 .project-link {
