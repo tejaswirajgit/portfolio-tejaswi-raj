@@ -4,7 +4,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-tejaswirajgit-181717?style=flat-square&logo=github)](https://github.com/tejaswirajgit)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tejaswi%20Raj-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/tejaswi-raj-/)
 
-Computer Science Engineer focused on building AI-driven and scalable web applications. This repository hosts the source for my personal portfolio site — experience, ML/DL project notebooks, publications, and certifications.
+Computer Science Engineer (2025 graduate) focused on building AI-driven and scalable web applications. This repository hosts the source for my personal portfolio site — experience, ML/DL project notebooks, publications, and certifications.
 
 **Live site:** <https://tejaswirajgit.github.io/portfolio-tejaswi-raj/>
 
@@ -21,6 +21,11 @@ Computer Science Engineer focused on building AI-driven and scalable web applica
 💬 **Ask me about** — Machine Learning, API development, backend systems, AI integration, and full-stack project workflows.
 
 ⚡ **Fun fact** — I enjoy turning complex problems into clean, working systems.
+
+## Education
+
+**B.E. in Computer Science Engineering** — Chandigarh University, Mohali, Punjab
+Graduated 2025 · CGPA: 7.56
 
 ## Featured projects
 
