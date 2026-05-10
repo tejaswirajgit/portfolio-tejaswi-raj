@@ -24,13 +24,12 @@ Computer Science Engineer focused on building AI-driven and scalable web applica
 
 ## Featured projects
 
-Three ML projects, rendered directly from their Jupyter notebooks and linked from the site's Projects section.
+ML projects rendered directly from their Jupyter notebooks, with deployed live demos where applicable.
 
-| Project | Notebook |
-| --- | --- |
-| Coronary Artery Disease — ML diagnostic pipeline | [View notebook](notebooks/coronary-artery-disease.html) |
-| Plant Leaf Disease Detection — CNN classifier | [View notebook](notebooks/Plant%20Leaf%20Disease%20Detection.html) |
-| ML-Based Cardiovascular Disease Prediction & Prevention Framework | [View notebook](notebooks/ML-Based%20Cardiovascular%20Disease%20Prediction%20%26%20Prevention%20Framework.html) |
+| Project | Notebook | Live demo |
+| --- | --- | --- |
+| Plant Leaf Disease Detection — CNN classifier | [View notebook](notebooks/Plant%20Leaf%20Disease%20Detection.html) | [Hugging Face Space ↗](https://huggingface.co/spaces/workface/plant-disease-detection) |
+| ML-Based Cardiovascular Disease Prediction & Prevention Framework | [View notebook](notebooks/ML-Based%20Cardiovascular%20Disease%20Prediction%20%26%20Prevention%20Framework.html) | [Streamlit app ↗](https://cardiovascular-disease-risk-predictor.streamlit.app/) |
 
 ## Tech stack
 
