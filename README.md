@@ -35,6 +35,7 @@ ML projects rendered directly from their Jupyter notebooks, with deployed live d
 | --- | --- | --- |
 | Plant Leaf Disease Detection — CNN classifier | [View notebook](notebooks/Plant%20Leaf%20Disease%20Detection.html) | [Hugging Face Space ↗](https://huggingface.co/spaces/workface/plant-disease-detection) |
 | ML-Based Cardiovascular Disease Prediction & Prevention Framework | [View notebook](notebooks/ML-Based%20Cardiovascular%20Disease%20Prediction%20%26%20Prevention%20Framework.html) | [Streamlit app ↗](https://cardiovascular-disease-risk-predictor.streamlit.app/) |
+| Coronary Artery Disease Risk Estimator — feature-selection-driven Logistic Regression on UCI Cleveland (0.89 ROC-AUC) | [View notebook](notebooks/coronary-artery-disease.html) | [Hugging Face Space ↗](https://huggingface.co/spaces/workface/coronary-artery-disease) |
 
 ## Tech stack
 
