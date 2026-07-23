@@ -182,6 +182,23 @@ projectCards.forEach((card) => {
   })
 })
 
+// ===== Certifications: expandable full list =====
+const certToggle = document.getElementById("certToggle")
+
+if (certToggle) {
+  certToggle.addEventListener("click", () => {
+    const open = certToggle.getAttribute("aria-expanded") === "true"
+    certToggle.setAttribute("aria-expanded", String(!open))
+  })
+
+  const certCount = document.getElementById("certCount")
+  if (certCount) {
+    const rows = document.querySelectorAll("#certTable .cert-row").length
+    const featured = document.querySelectorAll(".cert-feat-card").length
+    certCount.textContent = String(rows + featured)
+  }
+}
+
 // ===== Console Easter Egg =====
 console.log("%c👋 Hello there!", "font-size: 24px; font-weight: bold; color: #64ffda;")
 console.log("%cInterested in my code? Check out my GitHub!", "font-size: 14px; color: #8892b0;")
