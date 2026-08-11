@@ -488,6 +488,7 @@ section {
   margin-bottom: 20px;
   font-size: 1.05rem;
   color: var(--text-secondary);
+  text-align: justify;
 }
 
 .highlight {
@@ -1337,6 +1338,11 @@ section {
 @media (max-width: 768px) {
   .container {
     padding: 0 25px;
+  }
+
+  /* justify opens up rivers of whitespace once the column gets this narrow */
+  .about-text p {
+    text-align: left;
   }
 
   .nav-container {

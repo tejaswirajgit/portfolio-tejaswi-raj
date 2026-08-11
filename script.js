@@ -113,7 +113,7 @@ window.addEventListener("scroll", highlightNav)
 
 // ===== Typing Effect for Hero Section =====
 const heroTitle = document.querySelector(".hero-title")
-const titles = ["ML Research Engineer", "AI Enthusiast", "Problem Solver"]
+const titles = ["AI Engineer", "ML Research Engineer", "Open-Source Builder"]
 let titleIndex = 0
 let charIndex = 0
 let isDeleting = false
@@ -200,6 +200,6 @@ if (certToggle) {
 }
 
 // ===== Console Easter Egg =====
-console.log("%c👋 Hello there!", "font-size: 24px; font-weight: bold; color: #64ffda;")
-console.log("%cInterested in my code? Check out my GitHub!", "font-size: 14px; color: #8892b0;")
-console.log("%chttps://github.com/tejaswirajgit", "font-size: 14px; color: #64ffda;")
+console.log("%c👋 Hello there!", "font-size: 24px; font-weight: bold; color: #b91c1c;")
+console.log("%cInterested in my code? Check out my GitHub!", "font-size: 14px; color: #505a69;")
+console.log("%chttps://github.com/tejaswirajgit", "font-size: 14px; color: #1a5fd9;")
