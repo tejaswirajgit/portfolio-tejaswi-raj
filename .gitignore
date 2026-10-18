@@ -35,6 +35,7 @@ notebooks/*.ipynb
 
 # Notes / local docs
 *.txt
+!robots.txt
 /certificate_links.csv
 
 # Certificates: ignore all by default, keep only files used by website

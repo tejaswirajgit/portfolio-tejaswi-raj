@@ -1,12 +1,12 @@
 # Tejaswi Raj — Portfolio
 
-[![Live Site](https://img.shields.io/badge/Live-tejaswirajgit.github.io-64ffda?style=flat-square)](https://tejaswirajgit.github.io/portfolio-tejaswi-raj/)
+[![Live Site](https://img.shields.io/badge/Live-tejaswiraj.com-64ffda?style=flat-square)](https://tejaswiraj.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-tejaswirajgit-181717?style=flat-square&logo=github)](https://github.com/tejaswirajgit)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tejaswi%20Raj-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/tejaswi-raj-/)
 
 Computer Science Engineer (2025 graduate) focused on building AI-driven and scalable web applications. This repository hosts the source for my personal portfolio site — experience, ML/DL project notebooks, publications, and certifications.
 
-**Live site:** <https://tejaswirajgit.github.io/portfolio-tejaswi-raj/>
+**Live site:** <https://tejaswiraj.com/>
 
 ## About me
 
